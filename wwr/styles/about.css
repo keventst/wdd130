@@ -74,6 +74,8 @@ main div {
 }
 
 .hero {
+    display: flex;
+    flex-flow: column;
     text-align: center;
     position: relative;
 }
@@ -83,6 +85,7 @@ main div {
     position: absolute;
     border-radius: 11px;
     padding: 5px;
+    bottom: 10px;
     opacity: 0.8;
     left: 130px;
 }
