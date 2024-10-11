@@ -11,23 +11,15 @@
 
 /*https://coolors.co/a9714b-73ab84-76b9a5-79c7c5-ade1e5*/
 
-.noto-sans-jp {
-    font-family: "Noto Sans JP", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-  }
-
-.shadows-into-light-regular {
-  font-family: "Shadows Into Light", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
 
 :root {
     --primary-color: #73AB84;
     --secondary-color : #ADE1E5;
     --accent1-color : #79C7C5;
     --accent2-color : #795137;
+
+    --heading-font : "Shadows Into Light", system-ui, serif;
+    --paragraph-font : "Noto Sans JP", sans-serif;
 }
 
 * {
