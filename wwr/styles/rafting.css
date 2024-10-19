@@ -113,7 +113,7 @@ main article p {
     font-weight: 600;
 }
 
-h1 {
+.hero h1 {
     font-family: "Shadows Into Light", system-ui, serif;
     font-size: 3rem;
     color: #795137;
@@ -133,6 +133,7 @@ h1 {
 }
 
 .history h2 {
+    margin: 15px;
     grid-column: 1/4;
     display: flex;
     justify-content: center;
@@ -144,7 +145,6 @@ h1 {
 
 h2 {
     font-family: "Shadows Into Light", system-ui, serif;
-    margin: 15px;
     color: #795137;
 }
 
@@ -188,3 +188,131 @@ footer {
 
 }
 
+/* Contact*/
+
+.con_title h1 {
+    font-family: "Shadows Into Light", system-ui, serif;
+    font-size: 3rem;
+    color: #795137;
+    text-align: center;
+    margin-top: 5px;
+    border-radius: 25px;
+    padding: 5px;
+    background-color: #ADE1E5;
+
+}
+
+.con_title p {
+    font-family: "Noto Sans JP", sans-serif;
+    background-color: #73AB84;
+    padding: 3px;
+    margin-left: 0px;
+}
+
+.con_title a {
+    color: rgb(26, 9, 87);
+}
+
+.map {
+    margin-top: 5px;
+}
+
+.staff {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    padding: 10px;
+}
+
+.staff h2 {
+    text-align: center;
+    grid-column: 1/4;
+}
+
+.staff img {
+    max-height: 150px;
+}
+
+.staff figcaption {
+    font-family: "Noto Sans JP", sans-serif;
+    text-align: center;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+form {
+    width: 700px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid #888;
+    border-radius: 15px;
+    background-color: lightgrey;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .1rem;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+legend {
+    padding: 0.3rem;
+    color: darkblue;
+    font-size: 1.4rem;
+}
+
+button {
+    margin: 5px;
+    background-color: #b7b5b5;
+    border-radius: 0.2rem;
+    padding: 3px;
+}
+
+label {
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: .5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    vertical-align: bottom;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+
+}
+
+.column1 {
+    grid-template-columns: 1fr 2fr;
+    margin: 0.5rem 0;
+
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+input[type="radio"] {
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.sub_news {
+    padding: 5px;
+}
+
+footer a {
+    color: beige;
+}
